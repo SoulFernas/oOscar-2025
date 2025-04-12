@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>OSCAR</title>
+    <link rel="icon" href="fotos/oscarlogo.png"/>
+    <link rel="stylesheet" href="oscacete.css">
+
+
+   
+
+
+
+  
+</head>
+
+
+<div class="procurar">
+    <form action="/buscar" method="GET">
+        <input type="text" id="search" name="query" placeholder="Digite sua busca..." required>
+        <button type="submit">Buscar</button>
+    </form>
+</div>
+
+
+
+
+<!-- 
+<div class="redes-sociais">
+
+    <img src="redes/logo-facebook.png" alt="" width="40">
+    <img src="redes/logo-instagram.png" alt="" width ="40">
+    <img src="redes/logo-youtube.png" alt="" width ="40">
+
+    </div>
+ -->
+
+
+
+
+<div class="logoin">
+<img src="fotos/industry.png" alt="" width="400px">
+
+</div>
+
+<header>
+
+
+
+
+
+    <nav>
+        <a href="index.html">OSCAR</a>
+        <a href="historia.html">HISTÓRIA</a>
+        <a href="industria.html">INDUSTRIA </a>
+        <a href="premiacoes.html">PREMIAÇÕES</a>
+        <a href="galeria.html">GALERIA</a>>
+        <a href="favoritos.html" target="_blank">FAVORITOS</a>
+     
+    </nav>
+
+
+
+    
+    <img src="fotos/oscar (1).png" height="720" width="1900" alt="">
+    
+    
+
+    
+</header>
+
+<br>
+
+<body>
+  
+
+
+
+
+
+
+<section id="destaques">
+    <h2> DESTAQUES DO OSCAR 2025</h2>
+   
+
+    <p>A noite do Oscar 2025 foi marcada por momentos inesquecíveis, celebrações emocionantes e algumas surpresas que agitaram o mundo do cinema. A cerimônia, que premiou os melhores filmes do ano, consagrou produções aclamadas pela crítica e pelo público, além de revelar novos talentos e homenagear grandes nomes da indústria.</p>
+
+    
+    <hr>
+   
+
+    <section id="filme Internacional">
+        <h2>ORGULHO BRASILEIRO</h2>
+        <p>"Ainda Estou Aqui" fez história ao vencer o Oscar de Melhor Filme Internacional em 2025, um marco inédito para o cinema brasileiro. A vitória consagrou a direção de Walter Salles e a atuação de Fernanda Torres, que emocionou o público e a crítica com sua interpretação de Eunice Paiva.
+
+        </p>
+    
+        <div class="slideshow-container">
+            <img class="slides diretor-slide active" src="fotos/aaainda.jpg" alt="Denis Villeneuve dirigindo no set">
+            <img class="slides diretor-slide" src="fotos/aainda.jpg" alt="Cena épica de Duna: Parte Dois">
+            <img class="slides diretor-slide" src="fotos/Ainda.png" alt="Denis recebendo o Oscar">
+            <a class="prev" onclick="changeSlideDiretor(-1)">&#10094;</a>
+            <a class="next" onclick="changeSlideDiretor(1)">&#10095;</a>
+        </div>
+    
+        <div class="dots">
+            <span class="dot diretor-dot active-dot" onclick="setSlideDiretor(0)"></span>
+            <span class="dot diretor-dot" onclick="setSlideDiretor(1)"></span>
+            <span class="dot diretor-dot" onclick="setSlideDiretor(2)"></span>
+        </div>
+    </section>
+
+    <br>
+    <br>
+
+    <section id="animacao">
+        <h2>MELHOR ANIMAÇÃO: FLOW</h2>
+        <p>"Flow" foi o grande vencedor do Oscar de Melhor Animação em 2025. O filme letão dirigido por Gints Zilbalodis conquistou a Academia com sua narrativa visualmente deslumbrante e sua atmosfera imersiva.</p>
+    
+        <div class="slideshow-container">
+            <img class="slides animacao-slide active" src="fotos/FLO.webp" alt="Cena do filme O Reino Encantado">
+            <img class="slides animacao-slide" src="fotos/FLOW.png" alt="Personagens principais">
+            <img class="slides animacao-slide" src="fotos/FFFOW.webp" alt="Aventura no castelo mágico">
+            <a class="prev" onclick="changeSlideAnimacao(-1)">&#10094;</a>
+            <a class="next" onclick="changeSlideAnimacao(1)">&#10095;</a>
+        </div>
+    
+        <div class="dots">
+            <span class="dot animacao-dot active-dot" onclick="setSlideAnimacao(0)"></span>
+            <span class="dot animacao-dot" onclick="setSlideAnimacao(1)"></span>
+            <span class="dot animacao-dot" onclick="setSlideAnimacao(2)"></span>
+        </div>
+    </section>
+
+
+    <br>
+    <br>
+
+    <section id="atriz">
+        <h2>MELHOR ATRIZ: Mikey Madison</h2>
+        <p>No Oscar 2025, a vencedora da categoria de Melhor Atriz foi Mikey Madison por sua atuação no filme "Anora". Madison superou outras atrizes notáveis que também estavam concorrendo ao prêmio, incluindo: Fernanda Torres ("Ainda Estou Aqui") e Demi Moore ("A Substância"). A performance de Madison em "Anora" foi amplamente elogiada pela crítica, e sua vitória no Oscar consolidou seu lugar como uma das atrizes mais talentosas de sua geração.</p>
+    
+        <div class="slideshow-container">
+            <img class="slides atriz-slide active" src="fotos/Mikey-Madison.jpg" alt="Margot segurando o Oscar">
+            <img class="slides atriz-slide " src="fotos/aanora.webp" alt="Margot Robbie no tapete vermelho">
+            <img class="slides atriz-slide" src="fotos/Anora.png" alt="Cena do filme A Última Dança">
+           
+            <a class="prev" onclick="changeSlideAtriz(-1)">&#10094;</a>
+            <a class="next" onclick="changeSlideAtriz(1)">&#10095;</a>
+        </div>
+    
+        <div class="dots">
+            <span class="dot atriz-dot active-dot" onclick="setSlideAtriz(0)"></span>
+            <span class="dot atriz-dot" onclick="setSlideAtriz(1)"></span>
+            <span class="dot atriz-dot" onclick="setSlideAtriz(2)"></span>
+        </div>
+    </section>
+
+
+
+
+
+<script>
+    function initSlideshow(slidesClass, dotsClass, changeSlideFunc, setSlideFunc) {
+        let currentIndex = 0;
+        const slides = document.querySelectorAll(slidesClass);
+        const dots = document.querySelectorAll(dotsClass);
+
+        function showSlide(index) {
+            slides.forEach((slide, i) => {
+                slide.classList.toggle("active", i === index);
+                dots[i].classList.toggle("active-dot", i === index);
+            });
+            currentIndex = index;
+        }
+
+        window[changeSlideFunc] = function (direction) {
+            let newIndex = currentIndex + direction;
+            if (newIndex >= slides.length) newIndex = 0;
+            if (newIndex < 0) newIndex = slides.length - 1;
+            showSlide(newIndex);
+        };
+
+        window[setSlideFunc] = function (index) {
+            showSlide(index);
+        };
+
+        setInterval(() => window , 5000);
+    }
+
+    initSlideshow(".animacao-slide", ".animacao-dot", "changeSlideAnimacao", "setSlideAnimacao");
+    initSlideshow(".atriz-slide", ".atriz-dot", "changeSlideAtriz", "setSlideAtriz");
+    initSlideshow(".diretor-slide", ".diretor-dot", "changeSlideDiretor", "setSlideDiretor");
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+<br>
+<br>
+<hr>
+
+
+<section id="sobre">
+
+
+
+
+
+
+
+    <h2> SOBRE O OSCAR</h2>
+
+
+    <div class = "ce">
+    <img src="fotos/logooscar.png" alt="">
+  </div>
+
+
+    <p>O Oscar, também conhecido como Academy Awards, é a cerimônia de premiação mais prestigiada da indústria cinematográfica mundial. Realizado anualmente pela Academia de Artes e Ciências Cinematográficas, o evento reconhece as melhores produções, performances e inovações do cinema, celebrando os filmes que marcaram o ano com excelência artística e técnica.
+
+      Desde sua primeira edição em 1929, o Oscar tornou-se um símbolo de prestígio, reunindo cineastas, atores, produtores e profissionais da indústria cinematográfica em uma noite de glamour e emoção. A estatueta dourada, conhecida como "Oscar", é um dos troféus mais cobiçados por aqueles que se dedicam à sétima arte, representando o reconhecimento máximo de um trabalho excepcional.
+      
+      As categorias do Oscar são variadas, abrangendo desde Melhor Filme e Melhor Diretor até Melhor Roteiro, Melhor Ator e Atriz, além de prêmios técnicos como Melhor Fotografia e Melhor Edição. Além disso, a cerimônia também celebra contribuições especiais ao cinema, com prêmios honorários e vitórias em categorias de filmes estrangeiros e animações.
+      
+      O impacto do Oscar vai além de uma simples premiação. Ele influencia carreiras, impulsiona bilheteiras e, frequentemente, gera debates sobre as escolhas e as representações no cinema. As produções premiadas muitas vezes se tornam referência cultural, moldando as tendências da indústria e estimulando a inovação no setor.
+      
+      Com a presença de grandes estrelas, performances inesquecíveis e momentos históricos, o Oscar continua sendo o evento que mais atrai a atenção do público ao redor do mundo, consolidando sua importância como o maior prêmio do cinema global..</p>
+</section>
+
+
+
+
+<footer>
+    <div class="redes-sociais-footer">
+      <a href="https://www.facebook.com/TheAcademy/" target="_blank">
+        <img src="redes/face.png" alt="Facebook" width="28">
+      </a>
+      <a href="https://www.instagram.com/theacademy/" target="_blank">
+        <img src="redes/logo-instagram.png" alt="Instagram" width="28">
+      </a>
+      <a href="https://www.youtube.com/oscars" target="_blank">
+        <img src="redes/logo-youtube.png" alt="YouTube" width="28">
+      </a>
+    </div>
+  
+    <p>&copy; 2025 - Oscar | Desenvolvido por Fernando</p>
+  </footer>
+
+
+</body>
+</html>
+
+
+
+
+

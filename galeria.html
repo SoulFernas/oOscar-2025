@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>GALERIA</title>
+    <link rel="icon" href="fotos/oscarlogo.png"/>
+    <link rel="stylesheet" href="oscacete.css">
+
+
+   
+
+</head>
+
+
+<div class="procurar">
+    <form action="/buscar" method="GET">
+        <input type="text" id="search" name="query" placeholder="Digite sua busca..." required>
+        <button type="submit">Buscar</button>
+    </form>
+</div>
+
+
+
+
+<div class="logoin">
+    <img src="fotos/industry.png" alt="" width="400px">
+    
+    </div>
+    
+
+
+    <header>
+
+
+
+
+   
+        <nav>
+            <a href="index.html">OSCAR</a>
+            <a href="historia.html">HISTÓRIA</a>
+            <a href="industria.html">INDUSTRIA </a>
+            <a href="premiacoes.html">PREMIAÇÕES</a>
+            <a href="galeria.html">GALERIA</a>>
+            <a href="favoritos.html" target="_blank">FAVORITOS</a>
+         
+        </nav>
+    
+      
+    </header>
+
+    <main>
+        <section class="galeria">
+            <h2>Momentos do Oscar 2025</h2>
+            <div class="grid">
+                <img src="fernandofotos/adrien.jpeg" alt="Momento 1" onclick="abrirModal(this)">
+                <img src="fernandofotos/aindaesto.webp" alt="Momento 2" onclick="abrirModal(this)">
+                <img src="fernandofotos/annnora.avif" alt="Momento 3" onclick="abrirModal(this)">
+                <img src="fernandofotos/ariana.webp" alt="Momento 4" onclick="abrirModal(this)">
+                <img src="fernandofotos/atorcoadju.jpeg" alt="Momento 5" onclick="abrirModal(this)">
+                <img src="fernandofotos/atrizes.jpeg" alt="Momento 6" onclick="abrirModal(this)">
+                <img src="fernandofotos/bestpic.jpeg" alt="Momento 7" onclick="abrirModal(this)">
+                <img src="fernandofotos/cancao.avif" alt="Momento 9" onclick="abrirModal(this)">
+                <img src="fernandofotos/duna.jpeg" alt="Momento 10" onclick="abrirModal(this)">
+                <img src="fernandofotos/flowcriadores.jpeg" alt="Momento 11" onclick="abrirModal(this)">
+                <img src="fernandofotos/fotointro.avif" alt="Momento 12" onclick="abrirModal(this)">
+                <img src="fernandofotos/melhorroteiro.jpeg" alt="Momento 13" onclick="abrirModal(this)">
+                <img src="fernandofotos/oscarbanner.webp" alt="Momento 14" onclick="abrirModal(this)">
+                <img src="fernandofotos/oscarmao.avif" alt="Momento 15" onclick="abrirModal(this)">
+                <img src="fernandofotos/seanbaker.webp" alt="Momento 16" onclick="abrirModal(this)">
+                <img src="fernandofotos/waltersale.webp" alt="Momento 17" onclick="abrirModal(this)">
+
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal para exibição da imagem -->
+    <div id="modal" class="modal">
+        <span class="fechar" onclick="fecharModal()">&times;</span>
+        <img id="imagem-modal" class="modal-conteudo">
+    </div>
+
+    <script src="script.js"></script>
+
+    <footer>
+        <div class="redes-sociais-footer">
+          <a href="https://www.facebook.com/TheAcademy/" target="_blank">
+            <img src="redes/face.png" alt="Facebook" width="28">
+          </a>
+          <a href="https://www.instagram.com/theacademy/" target="_blank">
+            <img src="redes/logo-instagram.png" alt="Instagram" width="28">
+          </a>
+          <a href="https://www.youtube.com/oscars" target="_blank">
+            <img src="redes/logo-youtube.png" alt="YouTube" width="28">
+          </a>
+        </div>
+      
+        <p>&copy; 2025 - Oscar | Galeria  </p>
+      </footer>
+    
+    
+</body>
+</html>
+

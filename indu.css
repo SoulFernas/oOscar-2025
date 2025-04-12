@@ -1,0 +1,122 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(Montserrat/Montserrat-VariableFont_wght.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+hr{
+color: #f0bb0c;
+border-color: #dbb50a;
+
+}
+
+
+body {
+    margin: 0;
+    background-color: #ffffff;
+    font-family: Montserrat, sans-serif;
+}
+
+.ce {
+
+    text-align: center;
+
+}
+
+nav {
+    font-weight: bold;
+    text-align: center;
+    background-color: #000000;
+    padding: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 0%;
+    border: 3px solid #dbb50a;
+    border-radius: 0px;
+    box-shadow: 0 0 15px rgba(219, 181, 10, 0.8); /* Efeito brilhante */
+    margin-right: 0%;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease, transform 0.2s;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #dbb50a;
+    color: #ffffff;
+    transform: scale(1.1);
+}
+
+.logoin {
+    text-align: center;
+    margin: 30px 150px;
+}
+
+.procurar {
+    position: absolute;
+    top: 65px;
+    right: 20px;
+    background-color: #f8f8f8;
+    padding: 12px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    max-width: 400px;
+}
+
+.procurar input[type="text"] {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+}
+
+.procurar button {
+    padding: 12px 15px;
+    background-color: #000;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.procurar button:hover {
+    background-color: #f0bb0c;
+}
+
+h1, h2 {
+    font-weight: bold;
+    text-align: center;
+    color: #000000;
+
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 45px;
+    text-align: left;
+    margin-left: 5%;
+}
+
+p, ul, ol, dl {
+    font-family: Georgia, serif;
+    font-size: 20px;
+    margin: 40px 100px;
+}
+
+
+
